@@ -5,13 +5,11 @@ import XCTest
 class PriorityQueueTests: XCTestCase {
 
     var iqueue: PriorityQueue<Int>!
-    var iarr: [Int]!
     
     override func setUp() {
         super.setUp()
 
         iqueue = PriorityQueue()
-        iarr = []
     }
     
     func testTopElementWhenSingle() {

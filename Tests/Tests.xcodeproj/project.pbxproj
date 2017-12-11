@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C4F33E921FDECF3A005C610B /* HeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F33E831FDECD14005C610B /* HeapTests.swift */; };
-		C4F33E941FDECF46005C610B /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F33E931FDECF46005C610B /* PriorityQueue.swift */; };
 		C4F33E961FDEE4CD005C610B /* PriorityQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F33E951FDEE4CD005C610B /* PriorityQueueTests.swift */; };
+		C4F33E981FDEEFC2005C610B /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F33E971FDEEFC2005C610B /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4F33E831FDECD14005C610B /* HeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTests.swift; sourceTree = "<group>"; };
 		C4F33E891FDECEEF005C610B /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F33E8E1FDECEEF005C610B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4F33E931FDECF46005C610B /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = PriorityQueue/PriorityQueue.swift; sourceTree = "<group>"; };
 		C4F33E951FDEE4CD005C610B /* PriorityQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueueTests.swift; sourceTree = "<group>"; };
+		C4F33E971FDEEFC2005C610B /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = ../PriorityQueue/PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +35,9 @@
 			isa = PBXGroup;
 			children = (
 				C4F33E831FDECD14005C610B /* HeapTests.swift */,
-				C4F33E951FDEE4CD005C610B /* PriorityQueueTests.swift */,
 				C4F33E8E1FDECEEF005C610B /* Info.plist */,
-				C4F33E931FDECF46005C610B /* PriorityQueue.swift */,
+				C4F33E971FDEEFC2005C610B /* PriorityQueue.swift */,
+				C4F33E951FDEE4CD005C610B /* PriorityQueueTests.swift */,
 				C4F33E8A1FDECEEF005C610B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,8 +118,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F33E921FDECF3A005C610B /* HeapTests.swift in Sources */,
-				C4F33E941FDECF46005C610B /* PriorityQueue.swift in Sources */,
 				C4F33E961FDEE4CD005C610B /* PriorityQueueTests.swift in Sources */,
+				C4F33E981FDEEFC2005C610B /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,12 +167,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = R6D5S4N2Y9;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -232,12 +229,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = R6D5S4N2Y9;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

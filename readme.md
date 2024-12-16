@@ -6,8 +6,8 @@ Install
 Add package dependency:
 
 ```sh
-swift package add-dependency 'https://github.com/paiv/swift-priority-queue.git' --from '1.0.0'
-swift package add-target-dependency PriorityQueue <target-name>
+swift package add-dependency 'https://github.com/paiv/priorityqueue-swift.git' --from '1.0.0'
+swift package add-target-dependency --package priorityqueue-swift PriorityQueue <target-name>
 ```
 
 

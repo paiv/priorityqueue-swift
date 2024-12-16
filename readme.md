@@ -16,7 +16,7 @@ Usage
 ```swift
 import PriorityQueue
 
-var queue = PriorityQueue([7, 3, 5, 9, 1])
+var queue = PriorityQueue([7, 9, 3, 11, 5])
 queue.insert(42)
 queue.pop()
 ```

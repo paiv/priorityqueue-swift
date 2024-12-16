@@ -43,7 +43,7 @@ class HeapTests: XCTestCase {
             var items:[Int] = []
 
             for _ in 0..<n {
-                let x = Int(arc4random_uniform(100)) - 50
+                let x = Int.random(in: 0..<100) - 50
                 items.append(x)
                 iheap.add(x)
             }

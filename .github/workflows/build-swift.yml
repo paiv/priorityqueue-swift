@@ -1,0 +1,32 @@
+name: Swift
+
+on:
+  push:
+    tags:
+    - '[0-9]**'
+  pull_request:
+    branches: [main]
+
+jobs:
+
+  build-swift:
+    name: Swift ${{matrix.platform}} ${{matrix.build_type}}
+    strategy:
+      matrix:
+        build_type: [debug, release]
+        platform: [macos-latest, ubuntu-latest]
+
+    runs-on: ${{matrix.platform}}
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Swift version
+      run: swift -version
+
+    - name: Build
+      run: swift build -c ${{matrix.build_type}}
+
+    - name: Test
+      run: swift test -c ${{matrix.build_type}}
+

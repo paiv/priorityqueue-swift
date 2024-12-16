@@ -1,5 +1,5 @@
-
 import XCTest
+@testable import PriorityQueue
 
 
 class HeapTests: XCTestCase {

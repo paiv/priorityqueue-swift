@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "PriorityQueue",
+    name: "priorityqueue-swift",
     products: [
         .library(
             name: "PriorityQueue",
